@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySport"
+    android:background="@drawable/main_menu">
+
+    <ImageView
+        android:id="@+id/iV_sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fot3" />
+
+    <TextView
+        android:id="@+id/text_sport_1"
+        android:layout_width="381dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="@string/tx_sport1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_sport" />
+
+    <TextView
+        android:id="@+id/textView_sport2"
+        android:layout_width="366dp"
+        android:layout_height="215dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="@string/sport_tx2"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV_sport" />
+
+    <ImageButton
+        android:id="@+id/im_btn_sport_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:background="#91847E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV_sport"
+        app:srcCompat="@drawable/svg_home"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
